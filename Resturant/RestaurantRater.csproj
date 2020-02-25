@@ -172,6 +172,10 @@
     <Compile Include="Migrations\202002251652093_InitialMigration.designer.cs">
       <DependentUpon>202002251652093_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002251901251_changed_properties.cs" />
+    <Compile Include="Migrations\202002251901251_changed_properties.designer.cs">
+      <DependentUpon>202002251901251_changed_properties.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Restaurant.cs" />
     <Compile Include="Models\RestaurantDbContext.cs" />
@@ -263,6 +267,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202002251652093_InitialMigration.resx">
       <DependentUpon>202002251652093_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002251901251_changed_properties.resx">
+      <DependentUpon>202002251901251_changed_properties.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
